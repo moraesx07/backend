@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": " servidor de backend para estudo da turma B do 3o. info 2025",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "zod"
+  ],
+  "author": "Guilherme de Moraes Santana",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
